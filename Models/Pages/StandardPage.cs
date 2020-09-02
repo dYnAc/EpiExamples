@@ -2,6 +2,7 @@ using EPiServer.Core;
 using EPiServer.DataAbstraction;
 using EPiServer.DataAnnotations;
 using System.ComponentModel.DataAnnotations;
+using EpiExamples.Attributes;
 
 namespace EpiExamples.Models.Pages
 {
@@ -22,5 +23,12 @@ namespace EpiExamples.Models.Pages
             GroupName = SystemTabNames.Content,
             Order = 320)]
         public virtual ContentArea MainContentArea { get; set; }
+
+        [MainSiteSwitch] // Property only used in main site
+        [Display(
+            GroupName = SystemTabNames.Content,
+            Order = 330)]
+        [CultureSpecific]
+        public virtual string SubTitle { get; set; }
     }
 }
