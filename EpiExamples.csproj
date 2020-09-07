@@ -256,6 +256,9 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Verndale.Sitemap.Robots.Generator, Version=1.0.0.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Verndale.Sitemap.Robots.Generator.1.0.0.4\lib\net47\Verndale.Sitemap.Robots.Generator.dll</HintPath>
+    </Reference>
     <Reference Include="WebGrease, Version=1.5.2.14234, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
     </Reference>
@@ -423,6 +426,7 @@
     <Content Include="App_Data\DefaultSiteContent.episerverdata" />
     <Content Include="App_Config\ConnectionStrings.config" />
     <Content Include=".gitignore" />
+    <Content Include="App_Config\sitemap.config" />
     <None Include="EPiServerLog.config" />
     <Content Include="modules\_protected\EPiServer.Cms.TinyMce\web.config" />
     <Content Include="modules\_protected\EPiServer.Cms.TinyMce\EPiServer.Cms.TinyMce.zip" />
@@ -432,6 +436,7 @@
     <Content Include="modules\_protected\CMS\CMS.zip" />
     <Content Include="modules\_protected\EPiServer.Search.Cms\module.config" />
     <Content Include="module.config" />
+    <Content Include="modules\_protected\Verndale.Sitemap.Robots.Generator\Verndale.Sitemap.Robots.Generator.zip" />
     <None Include="packages.config" />
     <Content Include="Views\SearchPage\Index.cshtml" />
     <Content Include="Views\_viewstart.cshtml" />
